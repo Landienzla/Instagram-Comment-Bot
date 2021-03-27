@@ -29,7 +29,7 @@ for i in range(325):
     commentarea.send_keys(combineduserlist[a])
     time.sleep(10)
     browser.find_element_by_xpath('//*[@id="react-root"]/section/main/div/div[1]/article/div[3]/section[3]/div/form/button').click()
-    print(combineduserlist[a], a , ".Yorum")
+    print(combineduserlist[a], a , ".comment")
     a += 1
     time.sleep(60)
 browser.stop_client()
